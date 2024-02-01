@@ -1,0 +1,51 @@
+.sectionone{
+    height: 100vh ;
+    width: 100vw ;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    height: 80%;
+    width: 80%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child1{
+    height: 20%;
+    width: 30%;
+    background-color: greenyellow;
+
+}
+
+.child2{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+}
+
+.sectiontwo{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropZone{
+    height: 50%;
+    width: 45%;
+    border: 1px black solid;
+}
+
+.dragItem{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+}
